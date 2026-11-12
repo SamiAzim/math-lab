@@ -11,3 +11,7 @@ The starting background is computer science and data science, engineering calcul
 How can abstract local interactions and forcing generate organized winding or lobed geometry? Blender flow and the Hopf-torus embeddings in Hajouji and Trettel’s *Elliptic Curves and the Hopf Fibration* motivate this question. Any connection between these settings is a hypothesis to investigate—not an established fact.
 
 AI will support explanation, proof critique, and exploration; mathematical claims should be checked through explicit reasoning and reliable sources.
+
+## Notebook collaboration
+
+[LiveCode source and local setup](tools/livecode/README.md) are included for interactive VS Code notebook work. The bridge requires a shared local filesystem; repository access alone does not give a cloud assistant control of a local editor.

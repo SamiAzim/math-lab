@@ -1,0 +1,6 @@
+# LiveCode: a VS Code extension + Claude Code skills. Code only; never data.
+*.vsix
+node_modules/
+.DS_Store
+__pycache__/
+extension.vsixmanifest

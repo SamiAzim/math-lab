@@ -1,0 +1,16 @@
+{
+  "name": "livecode",
+  "displayName": "LiveCode",
+  "description": "Lets Claude show, arrange, colour, edit and explain code on your screen during a conversation, through small JSON requests.",
+  "version": "0.1.0",
+  "publisher": "sami",
+  "engines": { "vscode": "^1.80.0" },
+  "categories": ["Other"],
+  "activationEvents": ["onStartupFinished"],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      { "command": "livecode.status", "title": "LiveCode: Status" }
+    ]
+  }
+}

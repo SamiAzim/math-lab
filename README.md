@@ -1,5 +1,7 @@
 # Math Lab
 
+**[Start here: session handoff, curriculum, and initial exercises](START-HERE.md)**
+
 An AI-assisted, proof-focused undergraduate mathematics education, pursued at roughly **20 hours per week**. The aim is broad, rigorous foundations, with careful definitions, independently worked proofs, exercises, and computational experiments that support mathematical understanding.
 
 ## Starting point and direction

@@ -4,6 +4,7 @@ This log records work, questions, and teaching decisions for Math Lab. Dates use
 
 | Date | Entry |
 | --- | --- |
+| [2026-11-20](2026-11-20.md) | First three exercises, connections to the notebook, and a shared learner map for teaching continuity. |
 | [2026-11-12](2026-11-12.md) | Saved notebook state, current learning assessment, open requests, and repository checkpoint. |
 | [2026-11-11](2026-11-11.md) | Handoff import, first 3D exploration, and alignment on the purpose of the undergraduate curriculum. |
 
@@ -11,4 +12,4 @@ For future entries, record the work actually attempted, the learner's observatio
 
 Update an existing day's entry when continuing the same session. Preserve earlier attempts and identify subsequent corrections rather than silently rewriting their history.
 
-[Current notebook](../notebooks/001-3d-functions.ipynb) · [Session handoff](../START-HERE.md) · [Curriculum](../curriculum/roadmap.md)
+[Learner map](../LEARNING.md) · [Current notebook](../notebooks/001-3d-functions.ipynb) · [Session handoff](../START-HERE.md) · [Curriculum](../curriculum/roadmap.md)

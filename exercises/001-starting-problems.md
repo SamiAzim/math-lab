@@ -1,6 +1,8 @@
 # Initial placement problems
 
-Status: unattempted in this conversation. Spend at most 90 minutes total without looking up solutions. Partial reasoning and precise descriptions of where you get stuck are useful. No solutions are included.
+Status as of November 20, 2026: all three problems have been worked through in dialogue, with hints and some tutor-supplied steps. See the [learner map](../LEARNING.md) and [session log](../journal/2026-11-20.md) for attribution and follow-up. Independent retention has not yet been checked. No solutions are included here.
+
+Original instructions: spend at most 90 minutes total without looking up solutions. Partial reasoning and precise descriptions of where you get stuck are useful.
 
 ## 1. Functions and proofs
 

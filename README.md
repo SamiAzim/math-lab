@@ -9,9 +9,10 @@ An AI-assisted, proof-focused undergraduate mathematics education, pursued at ro
 The first exploration is an informal starting assessment: constructing and coloring sampled 3D curves with NumPy and Plotly. It records an early attempt to express ordered winding and vertical oscillation. The undergraduate curriculum remains the larger goal; the motivating geometry gives us examples to understand and justify as foundations develop.
 
 - [First exploration notebook](notebooks/001-3d-functions.ipynb): the learner's current construction, saved outputs, and unfinished scratch work.
+- [Learner map and intuition notes](LEARNING.md): the motivating idea in the learner's words, evidence from exercises, and the current teaching checkpoint.
 - [Daily learning log](journal/README.md): session history, observations, mathematical distinctions, and open questions.
-- [Latest entry: November 12, 2026](journal/2026-11-12.md).
-- [Provisional curriculum](curriculum/roadmap.md) and [original placement exercises](exercises/001-starting-problems.md). Those formal exercises remain unattempted.
+- [Latest entry: November 20, 2026](journal/2026-11-20.md).
+- [Provisional curriculum](curriculum/roadmap.md) and [original placement exercises](exercises/001-starting-problems.md). The three original problems have been worked through with guidance; independent retention remains to be checked.
 
 The notebook is a work in progress. It contains an unfinished `dfdx =` cell and later scratch work that depends on earlier kernel state, so it is not currently a clean “Run All” notebook. Saved outputs are preserved as part of the exploration. Use VS Code or Jupyter to interact with the Plotly figures.
 

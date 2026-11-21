@@ -45,7 +45,11 @@ The three problems have been worked through in dialogue. Independent retention h
 - Keep verbal or computational evidence separate from a proof and distinguish learner arguments from tutor-supplied steps. Explain why a requested proof step matters rather than demanding algebraic ceremony.
 - Preserve the notebook. Inspect its live state before editing and make requested changes one cell at a time. The learner has custom keybindings.
 
-## Current checkpoint
+## Course bookmark
+
+The [course bookmark](curriculum/bookmark.md) records the live question. The learner wants to experience the problems that gave mathematics its vocabulary, to work in several subjects with explicit proofs, and to take part in a prepared lesson through three or four sentences at a time. Drawings, including plain-text sketches and reusable HTML diagrams, should be part of that conversation.
+
+## Placement and earlier planning
 
 The first three exercises were a broad starting assessment, not a prerequisite chain to the notebook. The periodic-motion problem connected directly to the winding motivation; the functions and subspaces problems sampled general foundations.
 

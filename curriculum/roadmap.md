@@ -1,4 +1,18 @@
-# Provisional curriculum
+# Undergraduate course map
+
+## The opening sequence
+
+Begin with Fourier's question about temperatures around a ring. We can follow one measured quantity into several fields while giving each argument its own assumptions. The first three lessons are prepared. Later chapters below are the route to develop as the learner's proofs and questions accumulate. [Prepared lessons](lessons/01-heat-around-a-ring.md) · [Current place](bookmark.md)
+
+| Chapter | Why the next idea is needed | A result to establish |
+| --- | --- | --- |
+| 1. Heat around a ring | Predicting the next four thermometer readings requires a rule for the entire pattern. | The local exchange preserves the mean. An eigenbasis accounts for the fate of every starting pattern. |
+| 2. Walking around a circle | On the ring, moving one place clockwise is an operation we can repeat. The winding notebook adds a second clock. | Describe rotations by a cyclic group and prove the rational-return criterion in both directions. |
+| 3. Measuring change | Finer measurements ask what “at this instant” and “at this place” mean. | Define limits, recover velocity from a parameterized curve and justify the chain rule under differentiability hypotheses. Revisit the heat field one variable at a time. |
+| 4. What survives gluing? | A square can keep track of two angles if its opposite edges describe the same positions. | Use the definition of the quotient topology to prove when a continuous map on the square descends to the torus. |
+| 5. From four readings to functions | Four eigenvectors sufficed for four numbers. Infinitely many modes raise a new question about convergence. | Compare finite orthogonal expansions with Fourier series and prove convergence statements under explicit hypotheses. |
+
+Between chapters, use one fresh proof and one delayed example to decide what to revisit. Let an algebra, analysis or geometry thread continue alongside the active problem when it has its own question. The longer subject sequence below also includes mathematics with no immediate ring application.
 
 ## Current route through the foundations
 
@@ -6,7 +20,7 @@ Updated November 20, 2026 after the first three guided problems. The learner wan
 
 The standing plan holds three layers together: the full undergraduate curriculum, reconstruction from the learner's actual retained knowledge, and the motivating winding/dynamics/topology/blender questions. The learner's prior coursework through Goode and Annin does not imply mastery; multivariable calculus also needs review. Use substantial theorems as visible destinations and introduce definitions, notation, worked examples, and proof moves in small steps. Shared foundations and ambitious goals belong in the same course.
 
-Goode and Annin's Differential Equations and Linear Algebra, 4th edition, is a confirmed existing source. Its eigenvector-independence theorem (7.2.5), diagonalization, and matrix exponentials offer meaningful destinations for a linear algebra strand. Develop that strand alongside the broader dependency guide below. The learner is ready to resume after alignment; begin with one needed concept rather than another curriculum redesign.
+Goode and Annin's Differential Equations and Linear Algebra, 4th edition, is a confirmed existing source. Its eigenvector-independence theorem (7.2.5), diagonalization, and matrix exponentials offer meaningful destinations for a linear algebra strand. Develop that strand alongside the broader dependency guide below. Use the bookmark for the current entry point.
 
 | Unit | Questions to investigate | Mathematics to build |
 | --- | --- | --- |
@@ -19,7 +33,7 @@ These units overlap and may be revisited. They are not a claim that all linear a
 
 The early linear algebra topics are consistent with the [MIT 18.06 syllabus](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/pages/syllabus/), which includes transformations, spaces, eigenvalues, and applications. The problem selection and order here are a tutor proposal tailored to the learner, rather than that course's sequence.
 
-## Suggested first problem
+## Earlier proposal for a geometry problem
 
 Can you produce a 90-degree counterclockwise rotation about the origin by composing two mirror reflections across lines through the origin? Choose one fixed pair of mirror lines that must work for every point in the plane. State the order of the reflections and eventually justify why it works for all points.
 

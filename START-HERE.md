@@ -20,6 +20,10 @@ Maintain the overall learning trajectory across exchanges. The learner uses info
 
 Keep the motivating question alive without repeatedly substituting physical simulation or statistical analysis for the learner's intended mathematical investigation. Do not dismiss visual intuition, and do not promote it to an established connection without proof. Help find meaningful definitions under which its insight might become a theorem.
 
+## Resume the class
+
+Open the [course bookmark](curriculum/bookmark.md) and the prepared lesson it names. The bookmark holds the live question across sessions. The notes below give the background to this course.
+
 ## Current state
 
 As of November 20, 2026, the learner has built a first NumPy/Plotly exploration of sampled circles and a deformed 3D curve with vertical oscillations and color indicating sample order. Treat this as an informal starting assessment of mathematical construction and experimentation.
@@ -30,7 +34,7 @@ The notebook is an early expression of the motivating idea. The learner's goal i
 
 The notebook contains unfinished scratch work and an evolving phase-based construction; inspect its current live state before interpreting it. A torus-based modification was discussed by the tutor. Do not report that proposal or a partial-derivative lesson as completed learner work. Requests for new starting exercises and for a discussion of programming-based mathematical learning are separate and remain open.
 
-The learner has reaffirmed the standing brief and is ready to resume: broad undergraduate coverage, reconstruction of unevenly retained foundations, and the motivating questions maintained together. Goode and Annin is a confirmed source and prior-exposure marker, not a mastered baseline or the whole curriculum. Keep substantive theorem goals visible while teaching prerequisites one move at a time. Resume from the learner map's current checkpoint rather than reopening planning by default.
+The learner has reaffirmed the standing brief and is ready to resume: broad undergraduate coverage, reconstruction of unevenly retained foundations, and the motivating questions maintained together. Goode and Annin is a confirmed source and prior-exposure marker, not a mastered baseline or the whole curriculum. Keep substantive theorem goals visible while teaching prerequisites one move at a time. Use the course bookmark for the next teaching move.
 
 - [Learner map and intuition notes](LEARNING.md)
 - [Current exploration notebook](notebooks/001-3d-functions.ipynb)

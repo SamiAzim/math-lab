@@ -4,6 +4,8 @@
 
 An AI-assisted, proof-focused undergraduate mathematics education, pursued at roughly **20 hours per week**. The aim is broad, rigorous foundations, with careful definitions, independently worked proofs, exercises, and computational experiments that support mathematical understanding.
 
+**[Continue the course](curriculum/bookmark.md)** · [Course map](curriculum/roadmap.md) · [Diagrams to revisit](curriculum/diagrams/README.md)
+
 ## Current work
 
 The first exploration is an informal starting assessment: constructing and coloring sampled 3D curves with NumPy and Plotly. It records an early attempt to express ordered winding and vertical oscillation. The undergraduate curriculum remains the larger goal; the motivating geometry gives us examples to understand and justify as foundations develop.

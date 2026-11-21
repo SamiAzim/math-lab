@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Four places on a ring · Math Lab</title>
+<style>
+  :root { color-scheme: light dark; font-family: "PT Serif", Georgia, serif; }
+  body { margin: 2rem auto; padding: 0 1.2rem; max-width: 34rem; line-height: 1.5; }
+  h1 { line-height: 1.15; }
+  .ring { position: relative; width: min(70%, 15rem); aspect-ratio: 1; margin: 3rem auto; border: 2px solid GrayText; border-radius: 50%; }
+  .site { position: absolute; transform: translate(-50%, -50%); background: Canvas; text-align: center; line-height: 1.2; padding: .25rem; }
+  .site strong { display: block; font-family: "IBM Plex Mono", monospace; font-variant-numeric: tabular-nums; }
+  .a { top: 0; left: 50%; } .b { top: 50%; left: 100%; }
+  .c { top: 100%; left: 50%; } .d { top: 50%; left: 0; }
+  nav { display: flex; gap: .75rem; align-items: center; flex-wrap: wrap; }
+  button { min-height: 44px; padding: .4rem .8rem; font: inherit; }
+</style>
+<main>
+  <h1>Four places on a ring</h1>
+  <p>One piece starts 8 degrees above room temperature. For this model, insulate the ring so it can only exchange heat between its four equal pieces.</p>
+  <figure class="ring" aria-label="Four pieces in clockwise order">
+    <span class="site a">A<strong>8°</strong></span>
+    <span class="site b">B<strong>0°</strong></span>
+    <span class="site c">C<strong>0°</strong></span>
+    <span class="site d">D<strong>0°</strong></span>
+  </figure>
+  <nav aria-label="Time step">
+    <button id="previous" disabled>Previous</button>
+    <button id="next">Next step</button>
+    <output id="step" aria-live="polite">Step 0 of 8</output>
+  </nav>
+  <p>At each step, a piece keeps half its temperature above room temperature and receives a quarter of each neighbor’s previous value. Watch C, opposite the warm spot.</p>
+</main>
+<script>
+  const frames = [[8, 0, 0, 0]];
+  while (frames.length <= 8) {
+    const old = frames[frames.length - 1];
+    frames.push(old.map((value, i) =>
+      value / 2 + (old[(i + 3) % 4] + old[(i + 1) % 4]) / 4
+    ));
+  }
+  const previous = document.querySelector('#previous');
+  const next = document.querySelector('#next');
+  const step = document.querySelector('#step');
+  const labels = document.querySelectorAll('.site strong');
+  let index = 0;
+  function showFrame(position) {
+    index = position;
+    labels.forEach((label, i) => { label.textContent = frames[index][i] + '°'; });
+    step.value = 'Step ' + index + ' of 8';
+    previous.disabled = index === 0;
+    next.disabled = index === 8;
+  }
+  previous.addEventListener('click', () => showFrame(index - 1));
+  next.addEventListener('click', () => showFrame(index + 1));
+</script>
+</html>

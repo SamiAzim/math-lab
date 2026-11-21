@@ -8,6 +8,9 @@ High confidence: directly stated by the learner.
 
 - Needs frequent reminders of basic definitions, repeated opportunities to start from a shared beginning, and one reasoning move at a time. This must be an ordinary feature of lessons, not a remedial event requiring an apology or an explanation of why they need it.
 - Wants the introductory language, notation, and examples that make a textbook readable before being asked to solve problems. An apparently practical puzzle can still be inaccessible if its vocabulary has not been taught.
+- Small steps do not mean elementary end goals. The learner explicitly wants substantive canonical theorems, with reminders and proof reconstruction one move at a time. A prolonged sequence of trivial arithmetic examples misses the request.
+- Reports familiarity with much of their linear algebra/differential equations book but difficulty producing proofs and independently realizing ideas in writing or code. Treat the gap between recognition, proof production, and construction as a teaching target; familiarity and difficulty are self-reports to investigate through actual work.
+- Confirmed Goode and Annin as approximately the furthest point of their traditional mathematics coursework. Explicitly reports that the book is not mastered and multivariable calculus is not reliably remembered. Prior exposure is a resource and a historical marker, not a demonstrated placement level. Plan cumulative reconstruction and prerequisite review; neither assume the whole book is secure nor infer a need to restart all mathematics at an elementary level.
 - Wants the instructor to manage a coherent undergraduate education aligned with standard mathematics. They should not have to repeatedly remind the tutor what the course is for.
 - Wants to express rough visual intuition using imperfect names. Interpret the intended behavior before committing to a technical meaning of a word such as tangent, eigenvalue, or PDE.
 - Wants candid assessment without flattery. The request to be mean permits frankness about the work; insults and invented personality judgments have no instructional value.
@@ -45,6 +48,8 @@ The learner's statement about being unable to chain ideas is a report of their e
 
 ## Immediate teaching state
 
-The learner asked for reflection on the teaching strategy, not another problem. The mirror-reflection task is deferred until its language has been introduced. Shared introductory material and a canonical course structure still need to be settled. A curriculum proposal and three guided exercises do not constitute a calibrated course placement.
+The learner clarified that they want substantial theorems visible as destinations while rebuilding the language, proof moves, and constructive skills needed to use them. The mirror-reflection task remains deferred; automatic reduction to elementary vector arithmetic is not the agreed course plan. A curriculum proposal and three guided exercises do not constitute a calibrated course placement.
+
+The learner confirmed the intended textbook: Goode and Annin, Differential Equations and Linear Algebra, 4th edition, at `/Users/samiabdelazim/Desktop/Textbooks/Mathematics/Goode, Annin - Differential Equations and Linear Algebra, 4th ed.pdf`. A matching extracted text is in the Math 130 reference folder. The book itself is not in this Git repository and cannot be assumed available to another account or cloud session. It marks prior coursework, not a mastered baseline. Its Chapter 1 is first-order differential equations; the learner's statement that Chapter 1 is difficult must not be silently interpreted as a statement about an axioms/proofs chapter.
 
 The winding notebook remains a motivating example within the broader undergraduate program. Preserve the learner's raw intuition separately from tutor interpretations; use an interpretation as a candidate to check, not a verdict about what the learner meant.

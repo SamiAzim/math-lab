@@ -28,7 +28,9 @@ The three original placement problems have now been worked through in dialogue. 
 
 The notebook is an early expression of the motivating idea. The learner's goal is undergraduate mathematics, with the geometry serving as a continuing source of questions. A literal blender simulation is not the intended project. The latest curriculum proposal remains proofs plus rigorous linear algebra, with a geometry thread about periodic motion and tori; its pace and entry point are provisional.
 
-The notebook contains unfinished scratch work and an evolving phase-based construction; inspect its current live state before interpreting it. A torus-based modification was discussed by the tutor. Do not report that proposal or a partial-derivative lesson as completed learner work. Requests for new starting exercises and for a discussion of programming-based mathematical learning are separate and remain open. The current priority is teaching alignment and continuity, rather than assigning a new topic during the learner's brainstorming.
+The notebook contains unfinished scratch work and an evolving phase-based construction; inspect its current live state before interpreting it. A torus-based modification was discussed by the tutor. Do not report that proposal or a partial-derivative lesson as completed learner work. Requests for new starting exercises and for a discussion of programming-based mathematical learning are separate and remain open.
+
+The learner has reaffirmed the standing brief and is ready to resume: broad undergraduate coverage, reconstruction of unevenly retained foundations, and the motivating questions maintained together. Goode and Annin is a confirmed source and prior-exposure marker, not a mastered baseline or the whole curriculum. Keep substantive theorem goals visible while teaching prerequisites one move at a time. Resume from the learner map's current checkpoint rather than reopening planning by default.
 
 - [Learner map and intuition notes](LEARNING.md)
 - [Current exploration notebook](notebooks/001-3d-functions.ipynb)

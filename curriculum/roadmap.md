@@ -4,6 +4,10 @@
 
 Updated November 20, 2026 after the first three guided problems. The learner wants problems with an outcome worth investigating before committing to written work. Use a substantive question to introduce each unit, then teach the definitions and methods needed to resolve it. This remains a broad undergraduate education; the winding notebook is one motivating thread.
 
+The standing plan holds three layers together: the full undergraduate curriculum, reconstruction from the learner's actual retained knowledge, and the motivating winding/dynamics/topology/blender questions. The learner's prior coursework through Goode and Annin does not imply mastery; multivariable calculus also needs review. Use substantial theorems as visible destinations and introduce definitions, notation, worked examples, and proof moves in small steps. Shared foundations and ambitious goals belong in the same course.
+
+Goode and Annin's Differential Equations and Linear Algebra, 4th edition, is a confirmed existing source. Its eigenvector-independence theorem (7.2.5), diagonalization, and matrix exponentials offer meaningful destinations for a linear algebra strand. Develop that strand alongside the broader dependency guide below. The learner is ready to resume after alignment; begin with one needed concept rather than another curriculum redesign.
+
 | Unit | Questions to investigate | Mathematics to build |
 | --- | --- | --- |
 | Linear algebra through transformations | Can two mirror reflections produce a quarter-turn of every point? Can different transformations have the same effect? What happens when a matrix acts repeatedly on a drawing? | Vectors, linear maps, bases and coordinates, matrices and composition, kernel and image, eigenvalues and eigenvectors. |
